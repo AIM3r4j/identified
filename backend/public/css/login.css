@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(131, 180, 239);
+}
+
+#loginText {
+  color: blueviolet;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 170px;
+}
+
+#users {
+  background-color: white;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}

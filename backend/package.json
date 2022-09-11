@@ -1,0 +1,36 @@
+{
+  "name": "identified",
+  "version": "1.0.0",
+  "description": "A lightweight ‘Identity Governance and Administration’ solution for any company",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest --runInBand --forceExit"
+  },
+  "author": "m3r4j",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap-icons": "^1.7.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "generate-password": "^1.7.0",
+    "googleapis": "^103.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.5",
+    "otp-generator": "^4.0.0",
+    "sernam": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4"
+  }
+}

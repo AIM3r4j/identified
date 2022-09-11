@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(2, 23, 48);
+}
+
+#signupText {
+  color: blueviolet;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+#users {
+  background-color: white;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
